@@ -1,0 +1,71 @@
+/*01. Common codes*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Kanit", sans-serif;
+}
+h1{
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Registration Form */
+.reg-form-inner{
+    width: 500px;
+    margin: 35px auto;
+    background-color: #eee;
+    padding: 20px;
+    box-shadow: 20px 20px 25px -22px #333,
+                 -20px -20px 25px -22px #333;
+}
+.reg-form-inner h1 {
+	text-align: center;
+	text-transform: uppercase;
+    padding: 10px;
+}
+.form-contant{
+    margin-bottom: 15px;
+}
+.form-contant label {
+	display: block;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.form-contant input{
+    padding: 10px;
+    outline: none;   
+}
+.contant-width{
+    width: 95%;
+}
+.form-contant input::placeholder{
+    text-transform: capitalize;
+}
+.gender-space{
+    margin-right: 40px;
+    display: inline-block;
+}
+.btn {
+	text-transform: capitalize;
+	padding: 16px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 10px auto;
+    background-color: #0047CF;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+    transition: .4s;
+}
